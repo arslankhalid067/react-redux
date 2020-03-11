@@ -1,12 +1,16 @@
-export const increment = jump => {
+export const increment = () => {
   return {
-    type: "INCREMENT",
-    payload: jump
+    type: "INCREMENT"
   };
 };
 export const decrement = () => {
   return {
     type: "DECREMENT"
+  };
+};
+export const reset = () => {
+  return {
+    type: "RESET"
   };
 };
 export const signIn = () => {
